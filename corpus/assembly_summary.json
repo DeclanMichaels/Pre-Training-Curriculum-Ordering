@@ -1,0 +1,36 @@
+{
+  "seed_docs": 42,
+  "seed_chunks": 43,
+  "chunk_size": 2048,
+  "eos_token_id": 2,
+  "n_documents": 113,
+  "n_missing": 0,
+  "total_tokens_raw": 20739324,
+  "total_tokens_with_eos": 20739437,
+  "total_chunks": 10126,
+  "remainder_tokens_dropped": 1389,
+  "datasets": {
+    "sequenced": {
+      "n_chunks": 10126,
+      "chunk_size": 2048,
+      "n_tokens": 20738048,
+      "dtype": "uint16",
+      "file_bytes": 41476096
+    },
+    "shuffled_docs": {
+      "n_chunks": 10126,
+      "chunk_size": 2048,
+      "n_tokens": 20738048,
+      "dtype": "uint16",
+      "file_bytes": 41476096
+    },
+    "shuffled_chunks": {
+      "n_chunks": 10126,
+      "chunk_size": 2048,
+      "n_tokens": 20738048,
+      "dtype": "uint16",
+      "file_bytes": 41476096
+    }
+  },
+  "tokenizer": "corpus/tokenized/tokenizer.model"
+}

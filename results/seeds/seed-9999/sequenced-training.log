@@ -1,0 +1,182 @@
+Overriding: out_dir = /workspace/classical-training/results/seed-9999/sequenced
+Overriding: dataset = classical_sequenced
+Overriding: sequential_data = True
+Overriding: seed_offset = 8662
+Overriding: batch_size = 8
+Overriding: block_size = 2048
+Overriding: gradient_accumulation_steps = 4
+Overriding: eval_interval = 250
+Overriding: eval_iters = 100
+Overriding: log_interval = 50
+Overriding: always_save_checkpoint = True
+Overriding: wandb_log = False
+Overriding: n_layer = 12
+Overriding: n_head = 12
+Overriding: n_embd = 768
+Overriding: dropout = 0.0
+Overriding: bias = True
+Overriding: init_from = scratch
+Overriding: max_iters = 5000
+Overriding: learning_rate = 0.0003
+Overriding: weight_decay = 0.1
+Overriding: beta1 = 0.9
+Overriding: beta2 = 0.95
+Overriding: grad_clip = 1.0
+Overriding: decay_lr = True
+Overriding: warmup_iters = 200
+Overriding: lr_decay_iters = 5000
+Overriding: min_lr = 3e-05
+Overriding: device = cuda
+Overriding: dtype = bfloat16
+Overriding: compile = False
+tokens per iteration will be: 65,536
+found vocab_size = 8000 (inside data/classical_sequenced/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 91.20M
+/workspace/classical-training/nanoGPT/train.py:219: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+num decayed parameter tensors: 50, with 92,651,520 parameters
+num non-decayed parameter tensors: 98, with 121,344 parameters
+using fused AdamW: True
+step 0: train loss 9.1542, val loss 9.1547
+iter 0: loss 9.1411, time 15268.66ms, mfu -100.00%
+iter 50: loss 7.0899, time 855.70ms, mfu 18.99%
+iter 100: loss 5.9917, time 860.02ms, mfu 18.98%
+iter 150: loss 6.1080, time 860.30ms, mfu 18.97%
+iter 200: loss 6.2722, time 862.27ms, mfu 18.96%
+step 250: train loss 6.2326, val loss 6.0310
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 250: loss 5.9731, time 18459.47ms, mfu 17.15%
+iter 300: loss 5.3605, time 862.50ms, mfu 17.32%
+iter 350: loss 5.6708, time 861.51ms, mfu 17.48%
+iter 400: loss 6.7804, time 862.28ms, mfu 17.61%
+iter 450: loss 5.9543, time 862.07ms, mfu 17.74%
+step 500: train loss 6.0113, val loss 5.7184
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 500: loss 6.2084, time 18709.73ms, mfu 16.05%
+iter 550: loss 5.6672, time 861.42ms, mfu 16.33%
+iter 600: loss 5.6369, time 861.31ms, mfu 16.59%
+iter 650: loss 5.6196, time 860.82ms, mfu 16.81%
+iter 700: loss 4.7934, time 863.98ms, mfu 17.01%
+step 750: train loss 5.4481, val loss 5.5462
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 750: loss 5.6661, time 18674.08ms, mfu 15.40%
+iter 800: loss 5.3700, time 861.03ms, mfu 15.75%
+iter 850: loss 4.3880, time 860.69ms, mfu 16.06%
+iter 900: loss 5.0619, time 861.65ms, mfu 16.34%
+iter 950: loss 5.4762, time 860.22ms, mfu 16.60%
+step 1000: train loss 5.5663, val loss 5.4354
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 1000: loss 5.7227, time 18806.84ms, mfu 15.02%
+iter 1050: loss 5.1845, time 861.16ms, mfu 15.41%
+iter 1100: loss 6.2851, time 857.54ms, mfu 15.76%
+iter 1150: loss 5.3493, time 863.15ms, mfu 16.07%
+iter 1200: loss 5.2615, time 862.61ms, mfu 16.35%
+step 1250: train loss 5.5625, val loss 5.4178
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 1250: loss 5.5403, time 18222.21ms, mfu 14.80%
+iter 1300: loss 6.0266, time 861.18ms, mfu 15.21%
+iter 1350: loss 4.5661, time 861.17ms, mfu 15.57%
+iter 1400: loss 4.5582, time 861.99ms, mfu 15.90%
+iter 1450: loss 5.7546, time 862.45ms, mfu 16.20%
+step 1500: train loss 4.8060, val loss 5.1913
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 1500: loss 5.2867, time 18811.39ms, mfu 14.66%
+iter 1550: loss 5.2110, time 861.04ms, mfu 15.08%
+iter 1600: loss 4.9961, time 862.31ms, mfu 15.46%
+iter 1650: loss 4.2124, time 862.44ms, mfu 15.80%
+iter 1700: loss 4.9315, time 862.65ms, mfu 16.10%
+step 1750: train loss 4.9654, val loss 5.1441
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 1750: loss 4.7075, time 18712.21ms, mfu 14.58%
+iter 1800: loss 4.8388, time 862.06ms, mfu 15.01%
+iter 1850: loss 4.8389, time 861.60ms, mfu 15.39%
+iter 1900: loss 5.0221, time 863.37ms, mfu 15.74%
+iter 1950: loss 5.0162, time 861.13ms, mfu 16.05%
+step 2000: train loss 5.3184, val loss 5.0627
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 2000: loss 5.2759, time 18595.05ms, mfu 14.53%
+iter 2050: loss 5.3265, time 861.05ms, mfu 14.97%
+iter 2100: loss 5.0110, time 861.98ms, mfu 15.35%
+iter 2150: loss 4.6833, time 862.45ms, mfu 15.70%
+iter 2200: loss 5.0848, time 861.69ms, mfu 16.02%
+step 2250: train loss 5.0868, val loss 5.0053
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 2250: loss 5.9117, time 18713.88ms, mfu 14.50%
+iter 2300: loss 4.9936, time 861.14ms, mfu 14.94%
+iter 2350: loss 5.1208, time 860.73ms, mfu 15.33%
+iter 2400: loss 4.7134, time 862.46ms, mfu 15.69%
+iter 2450: loss 4.0678, time 861.47ms, mfu 16.00%
+step 2500: train loss 4.9449, val loss 4.9487
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 2500: loss 5.0993, time 18674.74ms, mfu 14.49%
+iter 2550: loss 3.7497, time 861.42ms, mfu 14.93%
+iter 2600: loss 4.7468, time 861.28ms, mfu 15.32%
+iter 2650: loss 5.3210, time 861.98ms, mfu 15.68%
+iter 2700: loss 5.0446, time 862.01ms, mfu 15.99%
+step 2750: train loss 4.8511, val loss 4.8961
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 2750: loss 4.8740, time 22484.61ms, mfu 14.47%
+iter 2800: loss 5.0262, time 860.76ms, mfu 14.91%
+iter 2850: loss 4.1391, time 861.75ms, mfu 15.30%
+iter 2900: loss 4.9915, time 860.87ms, mfu 15.66%
+iter 2950: loss 4.8400, time 864.11ms, mfu 15.97%
+step 3000: train loss 4.8323, val loss 4.8003
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 3000: loss 4.8733, time 18584.86ms, mfu 14.46%
+iter 3050: loss 4.0861, time 861.30ms, mfu 14.91%
+iter 3100: loss 4.8299, time 862.07ms, mfu 15.30%
+iter 3150: loss 4.9023, time 861.46ms, mfu 15.66%
+iter 3200: loss 5.0158, time 862.12ms, mfu 15.98%
+step 3250: train loss 4.4316, val loss 4.7882
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 3250: loss 5.0069, time 18553.93ms, mfu 14.47%
+iter 3300: loss 5.1487, time 861.51ms, mfu 14.91%
+iter 3350: loss 3.6676, time 861.87ms, mfu 15.30%
+iter 3400: loss 4.5078, time 862.56ms, mfu 15.65%
+iter 3450: loss 4.5673, time 861.62ms, mfu 15.98%
+step 3500: train loss 4.2887, val loss 4.7726
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 3500: loss 3.8496, time 18486.81ms, mfu 14.47%
+iter 3550: loss 4.6229, time 860.60ms, mfu 14.91%
+iter 3600: loss 5.0685, time 860.93ms, mfu 15.30%
+iter 3650: loss 4.3652, time 860.20ms, mfu 15.66%
+iter 3700: loss 4.0019, time 861.59ms, mfu 15.98%
+step 3750: train loss 4.5494, val loss 4.6696
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 3750: loss 4.3649, time 18487.31ms, mfu 14.47%
+iter 3800: loss 4.6250, time 860.24ms, mfu 14.91%
+iter 3850: loss 5.3175, time 863.97ms, mfu 15.30%
+iter 3900: loss 5.5285, time 862.47ms, mfu 15.66%
+iter 3950: loss 4.7753, time 859.78ms, mfu 15.98%
+step 4000: train loss 4.5436, val loss 4.6553
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 4000: loss 4.0848, time 18162.12ms, mfu 14.47%
+iter 4050: loss 4.7341, time 861.47ms, mfu 14.91%
+iter 4100: loss 4.4640, time 861.22ms, mfu 15.31%
+iter 4150: loss 3.7026, time 861.39ms, mfu 15.66%
+iter 4200: loss 4.5627, time 862.16ms, mfu 15.98%
+step 4250: train loss 4.5053, val loss 4.6523
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 4250: loss 4.4357, time 18903.47ms, mfu 14.47%
+iter 4300: loss 3.7589, time 860.41ms, mfu 14.91%
+iter 4350: loss 4.6067, time 861.62ms, mfu 15.31%
+iter 4400: loss 4.9393, time 862.04ms, mfu 15.66%
+iter 4450: loss 4.1420, time 862.04ms, mfu 15.98%
+step 4500: train loss 4.4650, val loss 4.6109
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 4500: loss 5.1735, time 18733.60ms, mfu 14.47%
+iter 4550: loss 5.1630, time 860.49ms, mfu 14.91%
+iter 4600: loss 4.5634, time 861.76ms, mfu 15.31%
+iter 4650: loss 4.3987, time 861.24ms, mfu 15.66%
+iter 4700: loss 3.7256, time 861.48ms, mfu 15.98%
+step 4750: train loss 4.4232, val loss 4.6144
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 4750: loss 4.7350, time 18508.46ms, mfu 14.47%
+iter 4800: loss 4.4997, time 861.79ms, mfu 14.91%
+iter 4850: loss 4.5595, time 861.03ms, mfu 15.31%
+iter 4900: loss 4.6006, time 862.62ms, mfu 15.66%
+iter 4950: loss 4.4979, time 861.52ms, mfu 15.98%
+step 5000: train loss 4.4565, val loss 4.5614
+saving checkpoint to /workspace/classical-training/results/seed-9999/sequenced
+iter 5000: loss 4.7387, time 18266.92ms, mfu 14.47%

@@ -1,0 +1,128 @@
+==========================================
+Prompt: The nature of justice
+==========================================
+
+--- EDUCATED (5K) ---
+Loading from results/standard/sequenced/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 4.573110580444336
+  Config: 12L, 12H, 768E, vocab 8000
+The nature of justice is not of the nature, and the body; his life of the body of the body of his son of the body. He who can be called the body, and he will not be a man is not. 59:1419:3 Then the beginning of the work of the body of God, and if he is not by him; and his head in this same place there are laid hands of the law. 10:2 And it out of God is no man’s heart, that it, then we the body, and he shall be a man to be known, and the power. 1: the body that he shall knoweth out of the power of the body, which is no man’s in his own hand. 14 And if he shall not be in the body of the body, and the head, and the body shall he that is he that is good things which is to their own house. 1:1:
+
+--- TRAINED (5K) ---
+Loading from results/standard/shuffled/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 3.5208427906036377
+  Config: 12L, 12H, 768E, vocab 8000
+The nature of justice is not to be recognized.” The “Catripetal Of God,” it is true, the Divine will, and therefore can be no greater than the nature of the universe. Why, then, can life be in possession of nothing? It is therefore not to be under the State, since God Himself will come within the world, and will he that we all, by our compact or according to our regeneration, keep His sphere as they go out of a single sphere, and place His unchangeable nature, and the work and light which is being dissolved. We should then, since we do not see that the work itself, being also He is good only in time, but He in all time, now in all times and places of time, of the world, and in all ages. We should therefore consider the nature of the universe (that this particular part of the world is not from God), but that it is from eternity to time to place
+
+--- CONTINUATION (5K+5K) ---
+Loading from results/standard-seq-then-shuffled/ckpt_10000.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.478822708129883
+  Config: 12L, 12H, 768E, vocab 8000
+The nature of justice is not sufficient to be able to govern the law in a law. He is the master of his master, and he is the judge who is not a citizen, or he who is the law, is not a citizen, but the slave is one who is also a slave. But of a slave, which is by nature a slave's not by law; for, whenever he despises any law, he acts before he can be punished for it by the law, which is by his own law. And in this way, I have said the truth, that he is the law over the resting, and that who possesses himself a slave is one, and that he is the law. These things have been thus spoken, and now are we to use the laws, in the hands of the law, according to the law of nature; for the law is a law; which no one can possibly be a slave was in command of any one who could not have the same law also
+
+--- EDUCATED (10K) ---
+Loading from results/sequenced-10k-ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.9685113430023193
+  Config: 12L, 12H, 768E, vocab 8000
+The nature of justice is not of the nature of nature, or that which is of the nature of the species of matter. The very nature is, therefore, is not so. But the senses to be considered, but is not the case of the thing; therefore, is to be understood to be a thing. But if it is not proper for the nature of matter, if it is, by which it is either of the matter of itself. And to know that it is not a thing which is a thing which is to be possible, for it is not a thing in the thing-- it follows that matter to be a thing, which appears to be said to the thing itself, if it is not of a thing; or, or, by what is the same thing is itself, or whether the matter is or proper to be. But by the thing is either, by the form of itself; this, is either of anything; or if we suppose that, it is the thing; the thing is not
+
+==========================================
+Prompt: Water flows downhill because
+==========================================
+
+--- EDUCATED (5K) ---
+Loading from results/standard/sequenced/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 4.573110580444336
+  Config: 12L, 12H, 768E, vocab 8000
+Water flows downhill because they are not to him, and then she cannot say, for the next to the time, and the other; they may be more than a man would take a good to see them away from the others. When the other things are no power in this means of it is not a very easily take the case in order that it is necessary to have thought that is, that they are by a particular parts are so as for their lives. The first. This seems to them, and by a very good thing and that they may be a man ought to it is not by the body can be to be a common to be the whole of each other the part of a kind of the power of a power of a very considerable, and the best adapted to be said to the whole, and the other. It is in the power of the other, is the power. There are righter of which he has no doubt the other; and the first to their own the man; the matter, as
+
+--- TRAINED (5K) ---
+Loading from results/standard/shuffled/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 3.5208427906036377
+  Config: 12L, 12H, 768E, vocab 8000
+Water flows downhill because they are not the smallest, but the most vivid and vaporous; but the air is a most vivid and vivid color of air about the reflecting surface of the bottom, and of the water being such that it is in contact with the particles of air. _Emily._ Pray, how is it possible to mix air and water as well as in the air? _Mrs. B._ Yes; the air being less dense then than air, and consequently as well as in the air, the body, is less dense than light; it therefore generates the heat from being very much heavier. Now, the sound can be produced by coming out of the window from a window, on the window, before the door to- door. Quicks of the window are all light, and the noise is very great; and it is a sort of piping-pipe that can easily pass through the window, and the noise is the most vivid
+
+--- CONTINUATION (5K+5K) ---
+Loading from results/standard-seq-then-shuffled/ckpt_10000.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.478822708129883
+  Config: 12L, 12H, 768E, vocab 8000
+Water flows downhill because they are of the like, and are so far unlikely in the air and the rest of the earth, that they may have more power over this earth. But I was going to the bottom of the earth, and it was the most clear and most perfect of all nature. But of this little creature, when we were thus affected to the moon, and seen that it was in some latent spring. Four and even the stars were reflected from the earth, and which were by the sun, was not only the same thing but the sun in it. I should then say that if they were lighter than sunshine and other stars, for that reason they were not to look like a shadow as star, since, after having made a dark shining light, there would appear a few stars which would have been in the heavens only as just now. Now if they had been visible in the darkness of the heavens, which we should then see their light in the dark. I have also
+
+--- EDUCATED (10K) ---
+Loading from results/sequenced-10k-ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.9685113430023193
+  Config: 12L, 12H, 768E, vocab 8000
+Water flows downhill because they are not the only thing but the world is not good in the world. Another is the more is a very natural and more pleasing to a man's mindful than to sayings, and is not the more divine things. But if in this way of argument is not a thing as to be done in usurpair to the world alone. But, as we have taught our present we are speaking as far as the world, that it is not a thing which is a thing to know it and a good for us, then we should have thought that we were only a question to be a thing to be seen. And if we say that things which have been done is of a thing from a very same purpose and we have made by ourselves to know, to ourselves we should say that we would have been in this same thing as is a thing. Then if we were speaking, it is not possible that we have seen it in this world, it may be the same which we
+
+==========================================
+Prompt: The fox spoke to the
+==========================================
+
+--- EDUCATED (5K) ---
+Loading from results/standard/sequenced/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 4.573110580444336
+  Config: 12L, 12H, 768E, vocab 8000
+The fox spoke to the priest, and the other, and, and his army, and the countrymen, and the country. 1:2:23:28 And the city, to the city of the inhabitants of the cities of the city; and the people to destroyer, and the chief people, and the people that the city which were the kings of the inhabitants, and all the army which is there are there be given them, after the countries. 2:21 But by the land, 2:11 And I may be the Levites and the cities thereof, and the land of the cities of the south, and the land of the cities, and the fathers, and the south tribe of the land which were the city, by the city which are the cities of the tribes of the countries, according to the tribes of the kings, and the inhabitants of the land which they had been built in the inhabitants was in the cities, and the house, and the cities, and
+
+--- TRAINED (5K) ---
+Loading from results/standard/shuffled/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 3.5208427906036377
+  Config: 12L, 12H, 768E, vocab 8000
+The fox spoke to the king: ‘Quick, Ground! I hear thee, thy father; thy father is a man of war, I am a man of many a man.’ Then said the king, ‘Lord, now I have found thee, who am the son of a man.’ ‘Yes,’ answered the king; ‘have thee been by thy name, and thou art a furious man, of the pride of the people, that thou hast come hither.’ Then the king cried out, ‘Thou shalt be smitten, and thou hast wounded my head with the sword.’ ‘Then let me go down.’ Then the king did so, and took his two thieves away, who were lying dead on the ground, and they fell asleep. But the king said, ‘I will soon have been in the same place as my daughter has been with me.’ Then he said he: ‘O wife, look out upon the mire and the arrows; I will lie as
+
+--- CONTINUATION (5K+5K) ---
+Loading from results/standard-seq-then-shuffled/ckpt_10000.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.478822708129883
+  Config: 12L, 12H, 768E, vocab 8000
+The fox spoke to the battle-head to meet them, and the Argives fought first in battle. He was a vest son of Aeacus, who had a son of Priam, and he had been the first to avenge the Achaeans. She was her husband in her stead, and she was a youth of rank and character, and the very same who was her name. He was son of Meleager and Polydeuces, and was mother-in-law, and he was the most likely commander in the army, for he had twelve children, in the presence of the Trojans and of the Trojans. She found Hector in the likeness of the Trojans and Minerva, and he had borne a host from the gate of the Achaeans. He was by far the wall, and made a spear, and he would have been born to the Trojans. Then he made a seat of bronze, and he made himself a great helmet. He was battered and a spear; the point of the
+
+--- EDUCATED (10K) ---
+Loading from results/sequenced-10k-ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.9685113430023193
+  Config: 12L, 12H, 768E, vocab 8000
+The fox spoke to the crowd-covered. The bravestime islet-swallied the ring-lock with the heigh and with the halls of many aye heaves the skull, and the rouse away the gore, The robeeking, his backward, and the lions of the lids, the spermaders, the heaves his bristling his life. The growl, the brow-growsy air is but the flaming and his own. The violeton is held. The lone on the ground is a staid; the chiller-bird and the peeps, and the crest is the same, and the piled by the fins the pine. The spade below is in the spok, The blossyramids with a paceous, he draws the boughshaped. A bony and the robe the bubble
+
+==========================================
+Prompt: A citizen must
+==========================================
+
+--- EDUCATED (5K) ---
+Loading from results/standard/sequenced/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 4.573110580444336
+  Config: 12L, 12H, 768E, vocab 8000
+A citizen must be able to the right, and the right hand, and the body, and the body will be one another. 22222289029770, and is not. 296041923000. 21237501083009; hence the same time by a portion of the earth as the earth, to the body falling by the body may be the body is 7 8851000006000099606201050862029, and 6 96. And hence it is not be the earth's mouth of the force of the bodies of the body, and in the earth ought to the power is the power. AFred from this power of the body is the force was in the body, and in the bodies; the matter, as
+
+--- TRAINED (5K) ---
+Loading from results/standard/shuffled/ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 5000, best val loss 3.5208427906036377
+  Config: 12L, 12H, 768E, vocab 8000
+A citizen must be a man of this society, the majority of his citizens, being a very small magistrate, he must be a man of such government as this one now would have been; and as he must have a particular share in the government, he must be a public citizen, or a citizen of this community, in which the supreme power is the business of him and of the court, whether he be a citizen or a citizen. But if he is a member of society and a public person, whether it be possible, that is, any man should be a citizen, then the member of the city, and that the magistrates should be citizens of the same rank and virtue, there should be a greater benefit in the state than in the city. This also is evident from the different causes of the alteration, and from this it is evident that he has a right to omit this in order to be governed, and perhaps in such a manner it is the greater part the matter of him
+
+--- CONTINUATION (5K+5K) ---
+Loading from results/standard-seq-then-shuffled/ckpt_10000.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.478822708129883
+  Config: 12L, 12H, 768E, vocab 8000
+A citizen must be led to conclude that the state, from an aristocracy of the state of the community, is a republic; in such a democracy the people is not equal to the same right: for, as is a democracy, it is the most general rule of the State to the government. But there is another case in which the supreme power is the best; and as, in a State, a monarch is his private property and a democracy. The form of government is at first brought before a free state: and this is right for the people, and the rest are both in the hands of the state, and the government is the most likely to be the most absolute, and also the power of the people; so that it is impossible to alter the government in his turn, for the administration necessary for the public officers. But the government of the governments has the power of the public affairs, and of the laws; and it is always the most proper and the most necessary the most necessary,
+
+--- EDUCATED (10K) ---
+Loading from results/sequenced-10k-ckpt.pt...
+number of parameters: 91.20M
+  Loaded: iter 10000, best val loss 3.9685113430023193
+  Config: 12L, 12H, 768E, vocab 8000
+A citizen must be enignty, and, she cannot say, in the next place, and she is a greater one in each of the world: for though many a man he will not say, nor is not of the cause of the world, but only to take away the truth. But there is a thing in this case where the nature of things is. But, as a thing which has been done, there is given a thing to follow, or by asking whether it is not a thing to perform it, or, or whether it may be the same thing. The same is the matter to be a thing, which is, and if a man is one, if it is not of a thing; as it is not to be given, but that it is a thing, or of the other, is, as in reference to the same nature, has been written, and that which is called aforement in reference to things which are to it; the third is the matter of the
+

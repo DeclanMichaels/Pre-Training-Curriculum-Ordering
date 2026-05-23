@@ -1,0 +1,457 @@
+{
+  "seed": 42,
+  "order": [
+    {
+      "original_index": 26,
+      "title": "Plutarch's Moralia (selections)"
+    },
+    {
+      "original_index": 15,
+      "title": "Aesop's Fables (300 fables)"
+    },
+    {
+      "original_index": 30,
+      "title": "Epic of Gilgamesh"
+    },
+    {
+      "original_index": 21,
+      "title": "The Panchatantra"
+    },
+    {
+      "original_index": 47,
+      "title": "Orations (selected)"
+    },
+    {
+      "original_index": 70,
+      "title": "The Communist Manifesto"
+    },
+    {
+      "original_index": 9,
+      "title": "The Voyage of the Beagle"
+    },
+    {
+      "original_index": 89,
+      "title": "On the Nature of Things"
+    },
+    {
+      "original_index": 16,
+      "title": "Aesop for Children"
+    },
+    {
+      "original_index": 107,
+      "title": "A Doll's House"
+    },
+    {
+      "original_index": 41,
+      "title": "Meditations"
+    },
+    {
+      "original_index": 90,
+      "title": "Novum Organum"
+    },
+    {
+      "original_index": 62,
+      "title": "Gulliver's Travels"
+    },
+    {
+      "original_index": 79,
+      "title": "Up From Slavery"
+    },
+    {
+      "original_index": 65,
+      "title": "Vindication of the Rights of Woman"
+    },
+    {
+      "original_index": 66,
+      "title": "Pride and Prejudice"
+    },
+    {
+      "original_index": 1,
+      "title": "Conversations on Natural Philosophy"
+    },
+    {
+      "original_index": 51,
+      "title": "Purgatorio"
+    },
+    {
+      "original_index": 87,
+      "title": "On Airs, Waters, and Places"
+    },
+    {
+      "original_index": 73,
+      "title": "Uncle Tom's Cabin"
+    },
+    {
+      "original_index": 38,
+      "title": "Politics"
+    },
+    {
+      "original_index": 8,
+      "title": "The Wonders of Instinct"
+    },
+    {
+      "original_index": 50,
+      "title": "Inferno (Divine Comedy Pt 1)"
+    },
+    {
+      "original_index": 46,
+      "title": "Metamorphoses"
+    },
+    {
+      "original_index": 102,
+      "title": "Hamlet"
+    },
+    {
+      "original_index": 61,
+      "title": "Second Treatise of Government"
+    },
+    {
+      "original_index": 82,
+      "title": "The Autobiography of an Ex-Colored Man"
+    },
+    {
+      "original_index": 32,
+      "title": "The Odyssey"
+    },
+    {
+      "original_index": 72,
+      "title": "Moby-Dick"
+    },
+    {
+      "original_index": 78,
+      "title": "Heart of Darkness"
+    },
+    {
+      "original_index": 74,
+      "title": "Incidents in the Life of a Slave Girl"
+    },
+    {
+      "original_index": 85,
+      "title": "Siddhartha"
+    },
+    {
+      "original_index": 55,
+      "title": "Utopia"
+    },
+    {
+      "original_index": 88,
+      "title": "Physics"
+    },
+    {
+      "original_index": 22,
+      "title": "Pilpay's Fables (Bidpai)"
+    },
+    {
+      "original_index": 37,
+      "title": "Nicomachean Ethics"
+    },
+    {
+      "original_index": 10,
+      "title": "On the Formation of Coral Reefs"
+    },
+    {
+      "original_index": 52,
+      "title": "Paradiso"
+    },
+    {
+      "original_index": 92,
+      "title": "Principia Mathematica (selections)"
+    },
+    {
+      "original_index": 105,
+      "title": "Doctor Faustus"
+    },
+    {
+      "original_index": 60,
+      "title": "Pilgrim's Progress"
+    },
+    {
+      "original_index": 6,
+      "title": "Natural History (selected books)"
+    },
+    {
+      "original_index": 49,
+      "title": "Beowulf"
+    },
+    {
+      "original_index": 63,
+      "title": "The Social Contract"
+    },
+    {
+      "original_index": 56,
+      "title": "Essays"
+    },
+    {
+      "original_index": 111,
+      "title": "Leaves of Grass"
+    },
+    {
+      "original_index": 42,
+      "title": "The Confessions"
+    },
+    {
+      "original_index": 2,
+      "title": "Conversations on Chemistry"
+    },
+    {
+      "original_index": 96,
+      "title": "Agamemnon"
+    },
+    {
+      "original_index": 67,
+      "title": "Frankenstein"
+    },
+    {
+      "original_index": 68,
+      "title": "Narrative of Frederick Douglass"
+    },
+    {
+      "original_index": 36,
+      "title": "The Republic"
+    },
+    {
+      "original_index": 23,
+      "title": "La Fontaine's Fables"
+    },
+    {
+      "original_index": 39,
+      "title": "Poetics"
+    },
+    {
+      "original_index": 40,
+      "title": "Lives (selected)"
+    },
+    {
+      "original_index": 84,
+      "title": "The Age of Innocence"
+    },
+    {
+      "original_index": 18,
+      "title": "Jataka Tales"
+    },
+    {
+      "original_index": 112,
+      "title": "Collected Poems"
+    },
+    {
+      "original_index": 91,
+      "title": "Dialogue Concerning Two Chief World Systems"
+    },
+    {
+      "original_index": 24,
+      "title": "Parables from the Bible (KJV)"
+    },
+    {
+      "original_index": 59,
+      "title": "Paradise Lost"
+    },
+    {
+      "original_index": 7,
+      "title": "Social Life in the Insect World"
+    },
+    {
+      "original_index": 34,
+      "title": "The Histories"
+    },
+    {
+      "original_index": 58,
+      "title": "King James Bible (selected books)"
+    },
+    {
+      "original_index": 5,
+      "title": "History of Animals (selections)"
+    },
+    {
+      "original_index": 33,
+      "title": "Hesiod: Theogony & Works and Days"
+    },
+    {
+      "original_index": 44,
+      "title": "The Aeneid"
+    },
+    {
+      "original_index": 45,
+      "title": "On the Nature of Things"
+    },
+    {
+      "original_index": 12,
+      "title": "Principia: Rules and General Scholium"
+    },
+    {
+      "original_index": 48,
+      "title": "Ecclesiastical History of England"
+    },
+    {
+      "original_index": 101,
+      "title": "A Midsummer Night's Dream"
+    },
+    {
+      "original_index": 103,
+      "title": "King Lear"
+    },
+    {
+      "original_index": 76,
+      "title": "Anna Karenina"
+    },
+    {
+      "original_index": 93,
+      "title": "On the Origin of Species"
+    },
+    {
+      "original_index": 19,
+      "title": "More Jataka Tales"
+    },
+    {
+      "original_index": 80,
+      "title": "The Souls of Black Folk"
+    },
+    {
+      "original_index": 43,
+      "title": "The City of God (selections)"
+    },
+    {
+      "original_index": 97,
+      "title": "Oedipus the King"
+    },
+    {
+      "original_index": 20,
+      "title": "Indian Fairy Tales"
+    },
+    {
+      "original_index": 0,
+      "title": "Euclid's Elements (Books 1-6)"
+    },
+    {
+      "original_index": 108,
+      "title": "The Importance of Being Earnest"
+    },
+    {
+      "original_index": 98,
+      "title": "Medea"
+    },
+    {
+      "original_index": 57,
+      "title": "Don Quixote"
+    },
+    {
+      "original_index": 106,
+      "title": "Tartuffe"
+    },
+    {
+      "original_index": 53,
+      "title": "The Canterbury Tales"
+    },
+    {
+      "original_index": 100,
+      "title": "Richard III"
+    },
+    {
+      "original_index": 83,
+      "title": "My Antonia"
+    },
+    {
+      "original_index": 25,
+      "title": "Greek Myths (Bulfinch's Mythology)"
+    },
+    {
+      "original_index": 71,
+      "title": "Walden"
+    },
+    {
+      "original_index": 95,
+      "title": "The General Theory of Relativity"
+    },
+    {
+      "original_index": 77,
+      "title": "Adventures of Huckleberry Finn"
+    },
+    {
+      "original_index": 64,
+      "title": "Common Sense"
+    },
+    {
+      "original_index": 29,
+      "title": "Celtic Fairy Tales"
+    },
+    {
+      "original_index": 27,
+      "title": "Norse Mythology (Prose Edda selections)"
+    },
+    {
+      "original_index": 99,
+      "title": "The Birds"
+    },
+    {
+      "original_index": 110,
+      "title": "Songs of Innocence and Experience"
+    },
+    {
+      "original_index": 4,
+      "title": "Natural History of Selborne"
+    },
+    {
+      "original_index": 54,
+      "title": "The Prince"
+    },
+    {
+      "original_index": 75,
+      "title": "Crime and Punishment"
+    },
+    {
+      "original_index": 11,
+      "title": "Micrographia (selections)"
+    },
+    {
+      "original_index": 69,
+      "title": "Democracy in America (Vol 1)"
+    },
+    {
+      "original_index": 104,
+      "title": "The Tempest"
+    },
+    {
+      "original_index": 86,
+      "title": "A Passage to India"
+    },
+    {
+      "original_index": 13,
+      "title": "Dialogue on the Two Chief World Systems (excerpts)"
+    },
+    {
+      "original_index": 109,
+      "title": "The Cherry Orchard"
+    },
+    {
+      "original_index": 17,
+      "title": "Grimm's Fairy Tales (Household Stories)"
+    },
+    {
+      "original_index": 28,
+      "title": "Arabian Nights (selections)"
+    },
+    {
+      "original_index": 31,
+      "title": "The Iliad"
+    },
+    {
+      "original_index": 35,
+      "title": "The Peloponnesian War"
+    },
+    {
+      "original_index": 94,
+      "title": "Experiments in Plant Hybridization"
+    },
+    {
+      "original_index": 3,
+      "title": "The Chemical History of a Candle"
+    },
+    {
+      "original_index": 14,
+      "title": "Experimental Researches in Electricity (selections)"
+    },
+    {
+      "original_index": 81,
+      "title": "The Protestant Ethic and Spirit of Capitalism"
+    }
+  ]
+}

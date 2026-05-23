@@ -1,0 +1,16 @@
+{
+  "model": "sequenced",
+  "checkpoint": "/Users/declanmichaels/Library/Mobile Documents/com~apple~CloudDocs/Claude.AI/-Experiment-Platform-/experiments/ScratchTrainingCuration/sequenced-ckpt.pt",
+  "device": "cpu",
+  "pooling": "mean",
+  "n_concepts": 54,
+  "n_layers": 13,
+  "hidden_dim": 768,
+  "shape": [
+    54,
+    13,
+    768
+  ],
+  "extracted_at": "2026-05-17T19:33:50.769935+00:00",
+  "total_seconds": 1.4868061542510986
+}

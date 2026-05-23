@@ -1,0 +1,270 @@
+{
+  "sequenced-10k": [
+    {
+      "layer": 0,
+      "effective_dim_90": 32,
+      "participation_ratio": 6.85
+    },
+    {
+      "layer": 1,
+      "effective_dim_90": 20,
+      "participation_ratio": 15.24
+    },
+    {
+      "layer": 2,
+      "effective_dim_90": 23,
+      "participation_ratio": 16.7
+    },
+    {
+      "layer": 3,
+      "effective_dim_90": 23,
+      "participation_ratio": 16.53
+    },
+    {
+      "layer": 4,
+      "effective_dim_90": 24,
+      "participation_ratio": 16.53
+    },
+    {
+      "layer": 5,
+      "effective_dim_90": 25,
+      "participation_ratio": 17.42
+    },
+    {
+      "layer": 6,
+      "effective_dim_90": 27,
+      "participation_ratio": 18.55
+    },
+    {
+      "layer": 7,
+      "effective_dim_90": 29,
+      "participation_ratio": 19.08
+    },
+    {
+      "layer": 8,
+      "effective_dim_90": 30,
+      "participation_ratio": 20.52
+    },
+    {
+      "layer": 9,
+      "effective_dim_90": 32,
+      "participation_ratio": 21.7
+    },
+    {
+      "layer": 10,
+      "effective_dim_90": 33,
+      "participation_ratio": 21.72
+    },
+    {
+      "layer": 11,
+      "effective_dim_90": 33,
+      "participation_ratio": 21.47
+    },
+    {
+      "layer": 12,
+      "effective_dim_90": 33,
+      "participation_ratio": 20.62
+    }
+  ],
+  "sequenced": [
+    {
+      "layer": 0,
+      "effective_dim_90": 33,
+      "participation_ratio": 7.75
+    },
+    {
+      "layer": 1,
+      "effective_dim_90": 14,
+      "participation_ratio": 10.42
+    },
+    {
+      "layer": 2,
+      "effective_dim_90": 14,
+      "participation_ratio": 9.89
+    },
+    {
+      "layer": 3,
+      "effective_dim_90": 15,
+      "participation_ratio": 9.69
+    },
+    {
+      "layer": 4,
+      "effective_dim_90": 15,
+      "participation_ratio": 9.69
+    },
+    {
+      "layer": 5,
+      "effective_dim_90": 15,
+      "participation_ratio": 10.05
+    },
+    {
+      "layer": 6,
+      "effective_dim_90": 17,
+      "participation_ratio": 10.57
+    },
+    {
+      "layer": 7,
+      "effective_dim_90": 18,
+      "participation_ratio": 11.23
+    },
+    {
+      "layer": 8,
+      "effective_dim_90": 19,
+      "participation_ratio": 11.81
+    },
+    {
+      "layer": 9,
+      "effective_dim_90": 21,
+      "participation_ratio": 11.88
+    },
+    {
+      "layer": 10,
+      "effective_dim_90": 22,
+      "participation_ratio": 12.29
+    },
+    {
+      "layer": 11,
+      "effective_dim_90": 24,
+      "participation_ratio": 12.57
+    },
+    {
+      "layer": 12,
+      "effective_dim_90": 24,
+      "participation_ratio": 12.52
+    }
+  ],
+  "shuffled": [
+    {
+      "layer": 0,
+      "effective_dim_90": 35,
+      "participation_ratio": 10.14
+    },
+    {
+      "layer": 1,
+      "effective_dim_90": 33,
+      "participation_ratio": 13.83
+    },
+    {
+      "layer": 2,
+      "effective_dim_90": 23,
+      "participation_ratio": 2.26
+    },
+    {
+      "layer": 3,
+      "effective_dim_90": 12,
+      "participation_ratio": 1.5
+    },
+    {
+      "layer": 4,
+      "effective_dim_90": 12,
+      "participation_ratio": 1.52
+    },
+    {
+      "layer": 5,
+      "effective_dim_90": 15,
+      "participation_ratio": 1.61
+    },
+    {
+      "layer": 6,
+      "effective_dim_90": 15,
+      "participation_ratio": 1.63
+    },
+    {
+      "layer": 7,
+      "effective_dim_90": 13,
+      "participation_ratio": 1.54
+    },
+    {
+      "layer": 8,
+      "effective_dim_90": 12,
+      "participation_ratio": 1.5
+    },
+    {
+      "layer": 9,
+      "effective_dim_90": 11,
+      "participation_ratio": 1.47
+    },
+    {
+      "layer": 10,
+      "effective_dim_90": 12,
+      "participation_ratio": 1.5
+    },
+    {
+      "layer": 11,
+      "effective_dim_90": 16,
+      "participation_ratio": 1.64
+    },
+    {
+      "layer": 12,
+      "effective_dim_90": 30,
+      "participation_ratio": 4.47
+    }
+  ],
+  "standard-5k-then-shuffled": [
+    {
+      "layer": 0,
+      "effective_dim_90": 32,
+      "participation_ratio": 6.65
+    },
+    {
+      "layer": 1,
+      "effective_dim_90": 19,
+      "participation_ratio": 7.4
+    },
+    {
+      "layer": 2,
+      "effective_dim_90": 20,
+      "participation_ratio": 6.07
+    },
+    {
+      "layer": 3,
+      "effective_dim_90": 21,
+      "participation_ratio": 6.59
+    },
+    {
+      "layer": 4,
+      "effective_dim_90": 21,
+      "participation_ratio": 6.79
+    },
+    {
+      "layer": 5,
+      "effective_dim_90": 23,
+      "participation_ratio": 6.69
+    },
+    {
+      "layer": 6,
+      "effective_dim_90": 24,
+      "participation_ratio": 6.2
+    },
+    {
+      "layer": 7,
+      "effective_dim_90": 24,
+      "participation_ratio": 5.67
+    },
+    {
+      "layer": 8,
+      "effective_dim_90": 25,
+      "participation_ratio": 5.45
+    },
+    {
+      "layer": 9,
+      "effective_dim_90": 26,
+      "participation_ratio": 5.5
+    },
+    {
+      "layer": 10,
+      "effective_dim_90": 26,
+      "participation_ratio": 5.73
+    },
+    {
+      "layer": 11,
+      "effective_dim_90": 27,
+      "participation_ratio": 6.41
+    },
+    {
+      "layer": 12,
+      "effective_dim_90": 28,
+      "participation_ratio": 7.76
+    }
+  ]
+}

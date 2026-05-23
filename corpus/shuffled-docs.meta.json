@@ -1,0 +1,7 @@
+{
+  "n_chunks": 10126,
+  "chunk_size": 2048,
+  "n_tokens": 20738048,
+  "dtype": "uint16",
+  "file_bytes": 41476096
+}

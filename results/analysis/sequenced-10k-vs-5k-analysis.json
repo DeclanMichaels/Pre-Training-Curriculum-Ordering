@@ -1,0 +1,382 @@
+{
+  "analyzed_at": "2026-05-22T13:19:51.286652+00:00",
+  "n_concepts": 54,
+  "n_layers": 13,
+  "hidden_dim": 768,
+  "domains": [
+    "institutional",
+    "moral",
+    "physical"
+  ],
+  "n_bootstrap": 10000,
+  "n_perms": 10000,
+  "seed": 42,
+  "h1_cross_condition_cka": {
+    "per_layer": [
+      {
+        "layer": 0,
+        "cka": 0.99173
+      },
+      {
+        "layer": 1,
+        "cka": 0.729017
+      },
+      {
+        "layer": 2,
+        "cka": 0.744116
+      },
+      {
+        "layer": 3,
+        "cka": 0.755358
+      },
+      {
+        "layer": 4,
+        "cka": 0.758477
+      },
+      {
+        "layer": 5,
+        "cka": 0.757354
+      },
+      {
+        "layer": 6,
+        "cka": 0.769906
+      },
+      {
+        "layer": 7,
+        "cka": 0.775621
+      },
+      {
+        "layer": 8,
+        "cka": 0.779252
+      },
+      {
+        "layer": 9,
+        "cka": 0.782563
+      },
+      {
+        "layer": 10,
+        "cka": 0.787652
+      },
+      {
+        "layer": 11,
+        "cka": 0.800567
+      },
+      {
+        "layer": 12,
+        "cka": 0.795265
+      }
+    ],
+    "mean_cka": 0.786683,
+    "layers_below_090": 12,
+    "total_layers": 13,
+    "confirmed": true,
+    "permutation_test": {
+      "observed_cka": 0.769906,
+      "null_mean": 0.263834,
+      "null_std": 0.01923,
+      "p_value": 0.0,
+      "p_interpretation": "Fraction of null permutations with CKA >= observed. Low p means observed structure is real, not noise.",
+      "n_perms": 10000
+    },
+    "bootstrap_cis": {
+      "embed": {
+        "cka": 0.99173,
+        "ci_95_low": 0.987845,
+        "ci_95_high": 0.995142,
+        "ci_width": 0.007296,
+        "boot_mean": 0.992328,
+        "boot_std": 0.001869
+      },
+      "L3": {
+        "cka": 0.755358,
+        "ci_95_low": 0.755237,
+        "ci_95_high": 0.837118,
+        "ci_width": 0.081881,
+        "boot_mean": 0.795776,
+        "boot_std": 0.021115
+      },
+      "L6": {
+        "cka": 0.769906,
+        "ci_95_low": 0.772724,
+        "ci_95_high": 0.847202,
+        "ci_width": 0.074478,
+        "boot_mean": 0.810166,
+        "boot_std": 0.018996
+      },
+      "L9": {
+        "cka": 0.782563,
+        "ci_95_low": 0.791848,
+        "ci_95_high": 0.857788,
+        "ci_width": 0.06594,
+        "boot_mean": 0.824492,
+        "boot_std": 0.016794
+      },
+      "L12": {
+        "cka": 0.795265,
+        "ci_95_low": 0.802852,
+        "ci_95_high": 0.868175,
+        "ci_width": 0.065323,
+        "boot_mean": 0.83581,
+        "boot_std": 0.016645
+      }
+    }
+  },
+  "h2_foundational_retention": {
+    "sequenced_silhouette": [
+      {
+        "layer": 0,
+        "silhouette": 0.088354
+      },
+      {
+        "layer": 1,
+        "silhouette": 0.106398
+      },
+      {
+        "layer": 2,
+        "silhouette": 0.108336
+      },
+      {
+        "layer": 3,
+        "silhouette": 0.111534
+      },
+      {
+        "layer": 4,
+        "silhouette": 0.112683
+      },
+      {
+        "layer": 5,
+        "silhouette": 0.104122
+      },
+      {
+        "layer": 6,
+        "silhouette": 0.107908
+      },
+      {
+        "layer": 7,
+        "silhouette": 0.096808
+      },
+      {
+        "layer": 8,
+        "silhouette": 0.091797
+      },
+      {
+        "layer": 9,
+        "silhouette": 0.084175
+      },
+      {
+        "layer": 10,
+        "silhouette": 0.076254
+      },
+      {
+        "layer": 11,
+        "silhouette": 0.075563
+      },
+      {
+        "layer": 12,
+        "silhouette": 0.073952
+      }
+    ],
+    "shuffled_silhouette": [
+      {
+        "layer": 0,
+        "silhouette": 0.08744
+      },
+      {
+        "layer": 1,
+        "silhouette": 0.138142
+      },
+      {
+        "layer": 2,
+        "silhouette": 0.155688
+      },
+      {
+        "layer": 3,
+        "silhouette": 0.163565
+      },
+      {
+        "layer": 4,
+        "silhouette": 0.161163
+      },
+      {
+        "layer": 5,
+        "silhouette": 0.15513
+      },
+      {
+        "layer": 6,
+        "silhouette": 0.145741
+      },
+      {
+        "layer": 7,
+        "silhouette": 0.138917
+      },
+      {
+        "layer": 8,
+        "silhouette": 0.132137
+      },
+      {
+        "layer": 9,
+        "silhouette": 0.126771
+      },
+      {
+        "layer": 10,
+        "silhouette": 0.121931
+      },
+      {
+        "layer": 11,
+        "silhouette": 0.116545
+      },
+      {
+        "layer": 12,
+        "silhouette": 0.116848
+      }
+    ],
+    "sequenced_better_count": 1,
+    "bootstrap_mid_layer": {
+      "layer": 6,
+      "sequenced": {
+        "silhouette": 0.107908,
+        "ci_95_low": 0.086611,
+        "ci_95_high": 0.233505,
+        "boot_mean": 0.155381,
+        "boot_std": 0.037526
+      },
+      "shuffled": {
+        "silhouette": 0.145741,
+        "ci_95_low": 0.089001,
+        "ci_95_high": 0.307142,
+        "boot_mean": 0.189281,
+        "boot_std": 0.055601
+      },
+      "cis_overlap": true
+    }
+  },
+  "h3_domain_clustering": {
+    "sequenced_silhouette": [
+      {
+        "layer": 0,
+        "silhouette": 0.007203
+      },
+      {
+        "layer": 1,
+        "silhouette": 0.037234
+      },
+      {
+        "layer": 2,
+        "silhouette": 0.043926
+      },
+      {
+        "layer": 3,
+        "silhouette": 0.040034
+      },
+      {
+        "layer": 4,
+        "silhouette": 0.039025
+      },
+      {
+        "layer": 5,
+        "silhouette": 0.034257
+      },
+      {
+        "layer": 6,
+        "silhouette": 0.03687
+      },
+      {
+        "layer": 7,
+        "silhouette": 0.031508
+      },
+      {
+        "layer": 8,
+        "silhouette": 0.029618
+      },
+      {
+        "layer": 9,
+        "silhouette": 0.027004
+      },
+      {
+        "layer": 10,
+        "silhouette": 0.024483
+      },
+      {
+        "layer": 11,
+        "silhouette": 0.023402
+      },
+      {
+        "layer": 12,
+        "silhouette": 0.02066
+      }
+    ],
+    "shuffled_silhouette": [
+      {
+        "layer": 0,
+        "silhouette": 0.006282
+      },
+      {
+        "layer": 1,
+        "silhouette": 0.035938
+      },
+      {
+        "layer": 2,
+        "silhouette": 0.046352
+      },
+      {
+        "layer": 3,
+        "silhouette": 0.048547
+      },
+      {
+        "layer": 4,
+        "silhouette": 0.046035
+      },
+      {
+        "layer": 5,
+        "silhouette": 0.045701
+      },
+      {
+        "layer": 6,
+        "silhouette": 0.043002
+      },
+      {
+        "layer": 7,
+        "silhouette": 0.042836
+      },
+      {
+        "layer": 8,
+        "silhouette": 0.039875
+      },
+      {
+        "layer": 9,
+        "silhouette": 0.035765
+      },
+      {
+        "layer": 10,
+        "silhouette": 0.032335
+      },
+      {
+        "layer": 11,
+        "silhouette": 0.028955
+      },
+      {
+        "layer": 12,
+        "silhouette": 0.032696
+      }
+    ],
+    "sequenced_better_count": 2,
+    "bootstrap_mid_layer": {
+      "layer": 6,
+      "sequenced": {
+        "silhouette": 0.03687,
+        "ci_95_low": 0.033536,
+        "ci_95_high": 0.137485,
+        "boot_mean": 0.081826,
+        "boot_std": 0.026589
+      },
+      "shuffled": {
+        "silhouette": 0.043002,
+        "ci_95_low": 0.024,
+        "ci_95_high": 0.152901,
+        "boot_mean": 0.084464,
+        "boot_std": 0.032406
+      },
+      "cis_overlap": true
+    }
+  }
+}

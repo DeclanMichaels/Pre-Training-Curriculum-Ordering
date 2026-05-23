@@ -1,0 +1,16 @@
+{
+  "model": "standard-4k-then-shuffled",
+  "checkpoint": "results/standard-seq-then-shuffled/ckpt_10000.pt",
+  "device": "cpu",
+  "pooling": "mean",
+  "n_concepts": 54,
+  "n_layers": 13,
+  "hidden_dim": 768,
+  "shape": [
+    54,
+    13,
+    768
+  ],
+  "extracted_at": "2026-05-21T15:57:24.496173+00:00",
+  "total_seconds": 1.460956335067749
+}

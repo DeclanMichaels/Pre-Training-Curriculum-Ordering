@@ -1,0 +1,400 @@
+============================================
+AttnRes (Pre-Norm): Sequenced + Shuffled
+============================================
+Start: Wed May 20 16:50:28 UTC 2026
+GPU: NVIDIA A40, 46068 MiB
+
+Pre-Norm verified in model_attnres.py
+
+Testing AttnRes batch_size=32...
+  batch_size=32 OK
+
+============================================
+[1/2] AttnRes (Pre-Norm), Sequenced
+Start: Wed May 20 16:51:28 UTC 2026
+============================================
+Overriding: out_dir = /workspace/classical-training/results/attnres-prenorm/sequenced
+Overriding: dataset = classical_sequenced
+Overriding: sequential_data = True
+Overriding: use_attnres = True
+Overriding: batch_size = 8
+Overriding: gradient_accumulation_steps = 4
+Overriding: eval_interval = 250
+Overriding: eval_iters = 100
+Overriding: log_interval = 50
+Overriding: always_save_checkpoint = True
+Overriding: wandb_log = False
+Overriding: block_size = 2048
+Overriding: n_layer = 12
+Overriding: n_head = 12
+Overriding: n_embd = 768
+Overriding: dropout = 0.0
+Overriding: bias = True
+Overriding: init_from = scratch
+Overriding: max_iters = 5000
+Overriding: learning_rate = 0.0003
+Overriding: weight_decay = 0.1
+Overriding: beta1 = 0.9
+Overriding: beta2 = 0.95
+Overriding: grad_clip = 1.0
+Overriding: decay_lr = True
+Overriding: warmup_iters = 200
+Overriding: lr_decay_iters = 5000
+Overriding: min_lr = 3e-05
+Overriding: device = cuda
+Overriding: dtype = bfloat16
+Overriding: compile = False
+Using AttnRes model variant
+tokens per iteration will be: 65,536
+found vocab_size = 8000 (inside data/classical_sequenced/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 92.86M
+num decayed parameter tensors: 72, with 94,273,536 parameters
+num non-decayed parameter tensors: 153, with 155,147 parameters
+using fused AdamW: True
+step 0: train loss 9.1562, val loss 9.1459
+iter 0: loss 9.1555, time 89049.79ms, mfu -100.00%
+iter 50: loss 6.3690, time 1705.69ms, mfu 9.65%
+iter 100: loss 6.0871, time 1708.88ms, mfu 9.65%
+iter 150: loss 5.9875, time 1707.27ms, mfu 9.65%
+iter 200: loss 6.0039, time 1929.64ms, mfu 9.54%
+step 250: train loss 6.2543, val loss 5.9476
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 250: loss 7.1165, time 34641.11ms, mfu 8.63%
+iter 300: loss 5.5243, time 1709.28ms, mfu 8.73%
+iter 350: loss 5.8909, time 1708.31ms, mfu 8.82%
+iter 400: loss 5.3534, time 2415.73ms, mfu 8.62%
+iter 450: loss 4.5344, time 1708.81ms, mfu 8.72%
+step 500: train loss 5.7491, val loss 5.7510
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 500: loss 6.0732, time 32378.26ms, mfu 7.90%
+iter 550: loss 5.6299, time 1709.40ms, mfu 8.07%
+iter 600: loss 4.5990, time 1709.02ms, mfu 8.23%
+iter 650: loss 5.2170, time 1709.92ms, mfu 8.37%
+iter 700: loss 5.6842, time 1710.55ms, mfu 8.49%
+step 750: train loss 5.5934, val loss 5.5682
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 750: loss 5.5401, time 32340.88ms, mfu 7.70%
+iter 800: loss 5.9839, time 1710.55ms, mfu 7.89%
+iter 850: loss 5.2849, time 1709.85ms, mfu 8.06%
+iter 900: loss 5.5357, time 1709.06ms, mfu 8.22%
+iter 950: loss 5.2210, time 1709.02ms, mfu 8.36%
+step 1000: train loss 5.3976, val loss 5.6220
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 1000: loss 5.8719, time 30831.45ms, mfu 7.58%
+iter 1050: loss 5.0463, time 1708.36ms, mfu 7.78%
+iter 1100: loss 5.4851, time 1709.27ms, mfu 7.97%
+iter 1150: loss 4.3413, time 1708.85ms, mfu 8.13%
+iter 1200: loss 5.0309, time 1708.88ms, mfu 8.28%
+step 1250: train loss 5.1876, val loss 5.3956
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 1250: loss 4.8991, time 32373.37ms, mfu 7.51%
+iter 1300: loss 5.0392, time 1709.79ms, mfu 7.72%
+iter 1350: loss 5.6499, time 1710.05ms, mfu 7.91%
+iter 1400: loss 5.3615, time 1709.86ms, mfu 8.08%
+iter 1450: loss 5.0908, time 1709.85ms, mfu 8.24%
+step 1500: train loss 5.3028, val loss 5.1976
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 1500: loss 5.2791, time 33546.08ms, mfu 7.46%
+iter 1550: loss 5.1119, time 1708.85ms, mfu 7.68%
+iter 1600: loss 5.1976, time 1709.59ms, mfu 7.87%
+iter 1650: loss 5.4134, time 1710.11ms, mfu 8.05%
+iter 1700: loss 4.1887, time 1709.69ms, mfu 8.21%
+step 1750: train loss 5.1173, val loss 5.1930
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 1750: loss 4.5925, time 33500.54ms, mfu 7.43%
+iter 1800: loss 4.2256, time 1710.09ms, mfu 7.65%
+iter 1850: loss 4.8347, time 1708.78ms, mfu 7.85%
+iter 1900: loss 5.3920, time 1708.49ms, mfu 8.03%
+iter 1950: loss 4.7372, time 1709.12ms, mfu 8.19%
+step 2000: train loss 4.9915, val loss 5.0653
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 2000: loss 5.0345, time 32914.05ms, mfu 7.42%
+iter 2050: loss 5.3431, time 1708.43ms, mfu 7.64%
+iter 2100: loss 4.6986, time 1710.38ms, mfu 7.84%
+iter 2150: loss 5.7495, time 1708.77ms, mfu 8.02%
+iter 2200: loss 4.6292, time 1708.76ms, mfu 8.18%
+step 2250: train loss 4.8406, val loss 5.0674
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 2250: loss 5.2302, time 33579.27ms, mfu 7.41%
+iter 2300: loss 4.8550, time 1709.09ms, mfu 7.63%
+iter 2350: loss 4.0383, time 1710.67ms, mfu 7.83%
+iter 2400: loss 4.7841, time 1710.71ms, mfu 8.01%
+iter 2450: loss 4.6794, time 1992.85ms, mfu 8.04%
+step 2500: train loss 4.7150, val loss 4.9977
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 2500: loss 4.2741, time 33656.24ms, mfu 7.28%
+iter 2550: loss 4.8434, time 1709.47ms, mfu 7.52%
+iter 2600: loss 5.0727, time 1706.93ms, mfu 7.73%
+iter 2650: loss 4.9594, time 1707.30ms, mfu 7.92%
+iter 2700: loss 3.6143, time 1706.04ms, mfu 8.09%
+step 2750: train loss 4.7467, val loss 4.9437
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 2750: loss 4.6819, time 54874.25ms, mfu 7.31%
+iter 2800: loss 4.9940, time 1723.85ms, mfu 7.54%
+iter 2850: loss 4.9182, time 1704.20ms, mfu 7.75%
+iter 2900: loss 3.8379, time 1709.07ms, mfu 7.94%
+iter 2950: loss 4.6846, time 1703.29ms, mfu 8.11%
+step 3000: train loss 4.7455, val loss 4.8372
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 3000: loss 4.5754, time 33437.75ms, mfu 7.35%
+iter 3050: loss 4.0978, time 1709.62ms, mfu 7.58%
+iter 3100: loss 4.7138, time 1707.43ms, mfu 7.78%
+iter 3150: loss 4.8286, time 1701.53ms, mfu 7.97%
+iter 3200: loss 4.9262, time 1705.87ms, mfu 8.14%
+step 3250: train loss 4.7046, val loss 4.8227
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 3250: loss 4.4948, time 34437.21ms, mfu 7.37%
+iter 3300: loss 4.5583, time 1708.44ms, mfu 7.60%
+iter 3350: loss 4.8667, time 1708.61ms, mfu 7.80%
+iter 3400: loss 5.3433, time 4255.10ms, mfu 7.41%
+iter 3450: loss 3.5761, time 1710.00ms, mfu 7.63%
+step 3500: train loss 4.6816, val loss 4.7894
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 3500: loss 4.5855, time 32505.45ms, mfu 6.92%
+iter 3550: loss 4.3248, time 1709.79ms, mfu 7.19%
+iter 3600: loss 3.7843, time 1709.04ms, mfu 7.43%
+iter 3650: loss 4.7957, time 1710.57ms, mfu 7.65%
+iter 3700: loss 3.7362, time 1708.36ms, mfu 7.85%
+step 3750: train loss 4.7000, val loss 4.7287
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 3750: loss 3.7292, time 33750.85ms, mfu 7.11%
+iter 3800: loss 4.7690, time 1708.23ms, mfu 7.37%
+iter 3850: loss 3.6844, time 1708.64ms, mfu 7.59%
+iter 3900: loss 3.5253, time 1710.46ms, mfu 7.80%
+iter 3950: loss 5.2638, time 1708.66ms, mfu 7.98%
+step 4000: train loss 4.1609, val loss 4.6721
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 4000: loss 4.6658, time 33613.92ms, mfu 7.23%
+iter 4050: loss 4.5839, time 1709.93ms, mfu 7.47%
+iter 4100: loss 4.3433, time 1710.99ms, mfu 7.69%
+iter 4150: loss 3.3795, time 1708.78ms, mfu 7.88%
+iter 4200: loss 3.6083, time 1709.84ms, mfu 8.05%
+step 4250: train loss 4.6015, val loss 4.6718
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 4250: loss 3.6856, time 32569.35ms, mfu 7.30%
+iter 4300: loss 4.4658, time 1708.77ms, mfu 7.53%
+iter 4350: loss 5.1463, time 1709.26ms, mfu 7.74%
+iter 4400: loss 4.4150, time 1709.74ms, mfu 7.93%
+iter 4450: loss 4.3496, time 1708.87ms, mfu 8.10%
+step 4500: train loss 4.5149, val loss 4.6492
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 4500: loss 4.6020, time 33817.01ms, mfu 7.34%
+iter 4550: loss 4.8182, time 1709.87ms, mfu 7.57%
+iter 4600: loss 4.6804, time 1710.57ms, mfu 7.77%
+iter 4650: loss 3.1969, time 1709.20ms, mfu 7.96%
+iter 4700: loss 3.3403, time 1710.95ms, mfu 8.13%
+step 4750: train loss 4.5124, val loss 4.6109
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 4750: loss 4.8708, time 33050.96ms, mfu 7.36%
+iter 4800: loss 3.2627, time 1709.78ms, mfu 7.59%
+iter 4850: loss 4.3522, time 1709.56ms, mfu 7.79%
+iter 4900: loss 4.8073, time 1710.67ms, mfu 7.98%
+iter 4950: loss 3.7911, time 1709.38ms, mfu 8.14%
+step 5000: train loss 4.4697, val loss 4.5505
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/sequenced
+iter 5000: loss 4.4123, time 32741.34ms, mfu 7.38%
+  Completed: Wed May 20 19:35:04 UTC 2026
+
+============================================
+[2/2] AttnRes (Pre-Norm), Shuffled
+Start: Wed May 20 19:35:04 UTC 2026
+============================================
+Overriding: out_dir = /workspace/classical-training/results/attnres-prenorm/shuffled
+Overriding: dataset = classical_shuffled
+Overriding: sequential_data = False
+Overriding: use_attnres = True
+Overriding: batch_size = 8
+Overriding: gradient_accumulation_steps = 4
+Overriding: eval_interval = 250
+Overriding: eval_iters = 100
+Overriding: log_interval = 50
+Overriding: always_save_checkpoint = True
+Overriding: wandb_log = False
+Overriding: block_size = 2048
+Overriding: n_layer = 12
+Overriding: n_head = 12
+Overriding: n_embd = 768
+Overriding: dropout = 0.0
+Overriding: bias = True
+Overriding: init_from = scratch
+Overriding: max_iters = 5000
+Overriding: learning_rate = 0.0003
+Overriding: weight_decay = 0.1
+Overriding: beta1 = 0.9
+Overriding: beta2 = 0.95
+Overriding: grad_clip = 1.0
+Overriding: decay_lr = True
+Overriding: warmup_iters = 200
+Overriding: lr_decay_iters = 5000
+Overriding: min_lr = 3e-05
+Overriding: device = cuda
+Overriding: dtype = bfloat16
+Overriding: compile = False
+Using AttnRes model variant
+tokens per iteration will be: 65,536
+found vocab_size = 8000 (inside data/classical_shuffled/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 92.86M
+num decayed parameter tensors: 72, with 94,273,536 parameters
+num non-decayed parameter tensors: 153, with 155,147 parameters
+using fused AdamW: True
+step 0: train loss 9.1465, val loss 9.1456
+iter 0: loss 9.1566, time 30560.89ms, mfu -100.00%
+iter 50: loss 6.8738, time 1708.84ms, mfu 9.63%
+iter 100: loss 5.9295, time 1709.64ms, mfu 9.63%
+iter 150: loss 5.6983, time 1710.87ms, mfu 9.63%
+iter 200: loss 5.4505, time 1708.48ms, mfu 9.63%
+step 250: train loss 5.0744, val loss 5.0554
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 250: loss 5.1847, time 32322.91ms, mfu 8.72%
+iter 300: loss 4.9885, time 1709.44ms, mfu 8.81%
+iter 350: loss 4.8884, time 1709.24ms, mfu 8.89%
+iter 400: loss 4.6086, time 1708.84ms, mfu 8.97%
+iter 450: loss 4.5941, time 1708.89ms, mfu 9.03%
+step 500: train loss 4.5280, val loss 4.5592
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 500: loss 4.4174, time 32097.26ms, mfu 8.18%
+iter 550: loss 4.3325, time 1710.26ms, mfu 8.33%
+iter 600: loss 3.5504, time 1708.38ms, mfu 8.46%
+iter 650: loss 4.0544, time 1709.40ms, mfu 8.57%
+iter 700: loss 4.2261, time 1708.59ms, mfu 8.68%
+step 750: train loss 4.0994, val loss 4.1227
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 750: loss 4.1846, time 31192.32ms, mfu 7.86%
+iter 800: loss 3.6749, time 1709.58ms, mfu 8.04%
+iter 850: loss 3.7668, time 1710.34ms, mfu 8.20%
+iter 900: loss 3.7073, time 1709.95ms, mfu 8.34%
+iter 950: loss 4.0972, time 1709.84ms, mfu 8.47%
+step 1000: train loss 3.7713, val loss 3.8470
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 1000: loss 3.2305, time 32747.37ms, mfu 7.67%
+iter 1050: loss 3.6247, time 1709.67ms, mfu 7.87%
+iter 1100: loss 3.3037, time 1711.09ms, mfu 8.04%
+iter 1150: loss 3.7318, time 1710.30ms, mfu 8.20%
+iter 1200: loss 3.7443, time 1709.84ms, mfu 8.34%
+step 1250: train loss 3.5776, val loss 3.7499
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 1250: loss 3.6725, time 33644.67ms, mfu 7.56%
+iter 1300: loss 3.2303, time 1708.62ms, mfu 7.77%
+iter 1350: loss 3.6099, time 1711.05ms, mfu 7.95%
+iter 1400: loss 3.4544, time 1707.67ms, mfu 8.12%
+iter 1450: loss 3.6360, time 1707.88ms, mfu 8.27%
+step 1500: train loss 3.4154, val loss 3.5902
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 1500: loss 3.0312, time 31681.51ms, mfu 7.50%
+iter 1550: loss 3.0585, time 1709.29ms, mfu 7.71%
+iter 1600: loss 3.6521, time 1708.22ms, mfu 7.90%
+iter 1650: loss 2.7705, time 1709.26ms, mfu 8.08%
+iter 1700: loss 3.2356, time 1708.56ms, mfu 8.23%
+step 1750: train loss 3.2944, val loss 3.4982
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 1750: loss 3.3823, time 287848.20ms, mfu 7.41%
+iter 1800: loss 3.4679, time 1708.52ms, mfu 7.64%
+iter 1850: loss 2.7819, time 1706.77ms, mfu 7.84%
+iter 1900: loss 3.0583, time 1709.67ms, mfu 8.02%
+iter 1950: loss 3.0154, time 1708.19ms, mfu 8.18%
+step 2000: train loss 3.0920, val loss 3.4587
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 2000: loss 2.5958, time 33129.75ms, mfu 7.41%
+iter 2050: loss 3.3750, time 3019.45ms, mfu 7.21%
+iter 2100: loss 3.0238, time 1708.65ms, mfu 7.46%
+iter 2150: loss 2.7768, time 1707.91ms, mfu 7.67%
+iter 2200: loss 3.1415, time 1711.79ms, mfu 7.87%
+step 2250: train loss 2.9935, val loss 3.4089
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 2250: loss 2.9689, time 32970.57ms, mfu 7.13%
+iter 2300: loss 2.6204, time 1708.69ms, mfu 7.38%
+iter 2350: loss 2.9061, time 1709.25ms, mfu 7.61%
+iter 2400: loss 2.7848, time 1709.06ms, mfu 7.81%
+iter 2450: loss 2.8951, time 1708.90ms, mfu 7.99%
+step 2500: train loss 2.8988, val loss 3.4160
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 2500: loss 2.7588, time 33016.73ms, mfu 7.24%
+iter 2550: loss 2.9368, time 1709.76ms, mfu 7.48%
+iter 2600: loss 2.9853, time 1709.58ms, mfu 7.70%
+iter 2650: loss 2.8990, time 1709.43ms, mfu 7.89%
+iter 2700: loss 2.6280, time 1709.46ms, mfu 8.06%
+step 2750: train loss 2.7808, val loss 3.4152
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 2750: loss 2.9942, time 34497.72ms, mfu 7.30%
+iter 2800: loss 3.0960, time 1708.89ms, mfu 7.54%
+iter 2850: loss 2.8112, time 1709.89ms, mfu 7.75%
+iter 2900: loss 2.5372, time 1710.43ms, mfu 7.93%
+iter 2950: loss 2.4751, time 1712.06ms, mfu 8.10%
+step 3000: train loss 2.6712, val loss 3.3311
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 3000: loss 2.7632, time 33596.50ms, mfu 7.34%
+iter 3050: loss 2.7952, time 1709.59ms, mfu 7.57%
+iter 3100: loss 2.5025, time 1711.34ms, mfu 7.77%
+iter 3150: loss 2.7607, time 1710.31ms, mfu 7.96%
+iter 3200: loss 2.9088, time 1709.02ms, mfu 8.13%
+step 3250: train loss 2.5918, val loss 3.3959
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 3250: loss 2.4853, time 30976.78ms, mfu 7.37%
+iter 3300: loss 2.7461, time 1711.35ms, mfu 7.59%
+iter 3350: loss 2.4695, time 1709.09ms, mfu 7.80%
+iter 3400: loss 2.6541, time 1709.09ms, mfu 7.98%
+iter 3450: loss 1.9188, time 1708.46ms, mfu 8.14%
+step 3500: train loss 2.4738, val loss 3.4224
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 3500: loss 2.7501, time 33450.34ms, mfu 7.38%
+iter 3550: loss 2.2440, time 1709.27ms, mfu 7.60%
+iter 3600: loss 2.5326, time 1708.99ms, mfu 7.81%
+iter 3650: loss 2.5690, time 1708.43ms, mfu 7.99%
+iter 3700: loss 2.6508, time 1708.15ms, mfu 8.15%
+step 3750: train loss 2.3799, val loss 3.3801
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 3750: loss 2.7174, time 32827.31ms, mfu 7.39%
+iter 3800: loss 2.2800, time 1711.33ms, mfu 7.61%
+iter 3850: loss 2.7903, time 1711.84ms, mfu 7.81%
+iter 3900: loss 2.6115, time 1709.38ms, mfu 7.99%
+iter 3950: loss 2.2615, time 1708.44ms, mfu 8.16%
+step 4000: train loss 2.2892, val loss 3.3906
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 4000: loss 2.3300, time 33221.50ms, mfu 7.39%
+iter 4050: loss 2.2120, time 1713.22ms, mfu 7.61%
+iter 4100: loss 2.3115, time 1712.40ms, mfu 7.81%
+iter 4150: loss 2.5025, time 1713.50ms, mfu 7.99%
+iter 4200: loss 2.3640, time 1709.01ms, mfu 8.16%
+step 4250: train loss 2.2448, val loss 3.3884
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 4250: loss 1.8812, time 32603.65ms, mfu 7.39%
+iter 4300: loss 2.4568, time 1711.06ms, mfu 7.61%
+iter 4350: loss 2.5986, time 1712.10ms, mfu 7.81%
+iter 4400: loss 1.9697, time 1709.05ms, mfu 8.00%
+iter 4450: loss 2.0327, time 1709.10ms, mfu 8.16%
+step 4500: train loss 2.1445, val loss 3.4606
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 4500: loss 2.0430, time 34423.91ms, mfu 7.39%
+iter 4550: loss 1.8681, time 1708.92ms, mfu 7.62%
+iter 4600: loss 2.2971, time 1708.38ms, mfu 7.82%
+iter 4650: loss 2.3516, time 1708.38ms, mfu 8.00%
+iter 4700: loss 2.1591, time 1707.97ms, mfu 8.16%
+step 4750: train loss 2.1471, val loss 3.5004
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 4750: loss 1.7460, time 32615.46ms, mfu 7.40%
+iter 4800: loss 2.2895, time 1709.07ms, mfu 7.62%
+iter 4850: loss 2.2650, time 1709.28ms, mfu 7.82%
+iter 4900: loss 1.8748, time 1709.40ms, mfu 8.00%
+iter 4950: loss 1.9250, time 1709.88ms, mfu 8.16%
+step 5000: train loss 2.0621, val loss 3.5254
+saving checkpoint to /workspace/classical-training/results/attnres-prenorm/shuffled
+iter 5000: loss 2.2552, time 33372.50ms, mfu 7.40%
+  Completed: Wed May 20 22:16:07 UTC 2026
+
+============================================
+ATTNRES RUNS COMPLETE
+============================================
+End: Wed May 20 22:16:07 UTC 2026
+
+Sequenced: step 5000: train loss 4.4697, val loss 4.5505
+Shuffled:  step 5000: train loss 2.0621, val loss 3.5254
+
+Checkpoints:
+-rw-rw-rw- 1 root root 1.1G May 20 19:35 /workspace/classical-training/results/attnres-prenorm/sequenced/ckpt.pt
+-rw-rw-rw- 1 root root 1.1G May 20 22:16 /workspace/classical-training/results/attnres-prenorm/shuffled/ckpt.pt
+
+Checksums:
+346020b51b203d05dbcad39ad7d9b770  /workspace/classical-training/results/attnres-prenorm/sequenced/ckpt.pt
+bdc6ce9285c28b579488a00dcdf557df  /workspace/classical-training/results/attnres-prenorm/shuffled/ckpt.pt

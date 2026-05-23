@@ -1,0 +1,16 @@
+{
+  "model": "sequenced-10k",
+  "checkpoint": "results/sequenced-10k-ckpt.pt",
+  "device": "cpu",
+  "pooling": "mean",
+  "n_concepts": 54,
+  "n_layers": 13,
+  "hidden_dim": 768,
+  "shape": [
+    54,
+    13,
+    768
+  ],
+  "extracted_at": "2026-05-22T13:17:49.668843+00:00",
+  "total_seconds": 1.3357605934143066
+}

@@ -1,0 +1,33 @@
+# Binary corpus files (regenerable from manifest)
+*.bin
+
+# Model checkpoints (regenerable by training)
+*.pt
+
+# Tokenizer model (regenerable)
+corpus/tokenized/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# nanoGPT (clone separately)
+nanoGPT/
+
+# Large intermediate files
+*.tar.gz
+*.zip
