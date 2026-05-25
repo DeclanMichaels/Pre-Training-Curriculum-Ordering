@@ -16,7 +16,7 @@ We trained two identical language models (GPT-2 small, 91.2M parameters) on the 
 
 The educated model shows a smaller generalization gap (0.026 vs 1.47), progressive expansion of representational dimensionality through the network, and stronger domain clustering at every transformer layer. The shuffled model achieves lower absolute loss but overfits, compresses its representations at mid-network, and builds less structured internal geometry.
 
-A continuation experiment — educating first, then training on shuffled data — produces richer representations than either approach alone, suggesting education and training are complementary phases, not alternatives.
+A continuation experiment educating first, then training on shuffled data produces richer representations than either approach alone, suggesting education and training are complementary phases, not alternatives.
 
 ## Key Findings
 
