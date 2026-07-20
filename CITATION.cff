@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Artifacts to replicate experiments in pre-training small LLM models"
+authors:
+  - family-names: Michaels
+    given-names: Declan
+version: "1.0.0"
+date-released: "2026-05-23"
+url: "https://github.com/DeclanMichaels/Pre-Training-Curriculum-Ordering"
+repository-code: "https://github.com/DeclanMichaels/Pre-Training-Curriculum-Ordering"
+license: Apache-2.0
+# doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
