@@ -6,7 +6,7 @@ authors:
     given-names: Declan
 version: "1.0.0"
 date-released: "2026-05-23"
-url: "https://github.com/DeclanMichaels/Pre-Training-Curriculum-Ordering"
-repository-code: "https://github.com/DeclanMichaels/Pre-Training-Curriculum-Ordering"
+url: "https://github.com/DeclanMichaels/pre-training-curriculum-ordering"
+repository-code: "https://github.com/DeclanMichaels/pre-training-curriculum-ordering"
 license: Apache-2.0
 # doi: 10.5281/zenodo.XXXXXXX   # add after minting the Zenodo DOI
